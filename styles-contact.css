@@ -1,4 +1,4 @@
-/*This is my 318 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+/*This is my 201 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
 
 
 
@@ -53,15 +53,16 @@ table {
 
 
 
-/* ---------- Hello, my name is YOUR NAME GOES HERE and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography November 2019 ------------ */
+/* ---------- Hello, my name is Sydney and this is the beginning of my CONTACT PAGE CSS for 201 Digital Publishing Systems March 2022 ------------ */
 
 html, body {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #404040; 
-	
+  background: url(images/bricks\ bg.jpg)
+		center center fixed no-repeat;
+	background-size: cover;
 	
 }
 
@@ -90,6 +91,9 @@ h1 {
 
 h2 {
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+	font-family: mon-nicolette-toscane, serif;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
@@ -104,5 +108,33 @@ p {
     color: #fff;
 }
     
-    
+nav{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	width: 400px;
+	margin: 0 auto;
+	border: dashed turquoise;
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+}    
 
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color: #444;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: black;
+	background: pink;
+}
