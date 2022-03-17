@@ -68,17 +68,17 @@ html, body {
 }
 
 .center {
-    width: 100%; /* added this to make div more responsive */
+    width: 70%; /* added this to make div more responsive */
 	padding: 2%;
     margin: 100px auto;
- 	background: "rgba(256, 256, 256, .60);" /* white 60% opacity */
+ 	background: "rgba(256, 256, 256, .6);" /* white 60% opacity */
 	text-align: center;
 }
 
    
 #logo {
 	text-align: center;
-	width: fit-content;
+	width: 60%;
 }
 
 p {
